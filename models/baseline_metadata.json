@@ -1,0 +1,12 @@
+{
+  "model": "YOLO11n COCO pretrained",
+  "custom_trained": false,
+  "source": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11n.pt",
+  "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "supported_project_classes": [
+    "person",
+    "chair",
+    "bicycle",
+    "vehicle"
+  ]
+}

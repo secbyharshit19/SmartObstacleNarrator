@@ -1,0 +1,41 @@
+confidence: 0.45
+imgsz: 640
+device: auto
+cpu_threads: 2
+capture_width: 640
+capture_height: 480
+max_frame_age: 0.75
+left_boundary: 0.35
+right_boundary: 0.65
+direction_hysteresis: 0.03
+state_hold: 0.4
+confirm_seconds: 0.3
+confirm_observations: 3
+continuity_gap: 0.5
+disappear_seconds: 1.0
+repeat_seconds: 8.0
+speech_gap: 1.5
+warning_ttl: 1.0
+speech_rate: 175
+near_m: 3.0
+close_m: 1.5
+distance_hysteresis_m: 0.15
+numeric_distance: false
+classes:
+  - person
+  - chair
+  - bicycle
+  - vehicle
+  - stairs
+  - pole
+  - barrier
+  - door
+weights:
+  person: 0.75
+  chair: 0.60
+  bicycle: 0.75
+  vehicle: 1.0
+  stairs: 1.0
+  pole: 0.80
+  barrier: 0.85
+  door: 0.25

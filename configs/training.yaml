@@ -1,0 +1,15 @@
+model: yolo11n.pt
+epochs: 80
+imgsz: 640
+batch: 8
+patience: 15
+seed: 42
+workers: 2
+save_period: 1
+plots: true
+fliplr: 0.5
+flipud: 0.0
+degrees: 5.0
+perspective: 0.0
+mosaic: 0.5
+close_mosaic: 10

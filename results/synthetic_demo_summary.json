@@ -1,0 +1,25 @@
+{
+  "mode": "SYNTHETIC DEMO",
+  "audible": false,
+  "frames": 436,
+  "processed_fps": 27.252313323438905,
+  "inference_ms": {
+    "n": 436,
+    "median": 0.0005055001111031743,
+    "p95": 0.0009619998877496982
+  },
+  "frame_age_ms": {
+    "n": 436,
+    "median": 31.24486649994651,
+    "p95": 32.15046574990765
+  },
+  "queue_to_driver_start_ms": {
+    "n": 6,
+    "median": 0.31106600010843977,
+    "p95": 8.792190499946173
+  },
+  "warning_count": 6,
+  "warnings_per_min": 22.553638612501164,
+  "stale_frames": 0,
+  "note": "Driver start is not measured acoustic onset. Synthetic/silent runs do not measure model/audio quality."
+}

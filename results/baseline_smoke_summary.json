@@ -1,0 +1,25 @@
+{
+  "mode": "COCO BASELINE (4 classes)",
+  "audible": false,
+  "frames": 50,
+  "processed_fps": 0.5988121590383177,
+  "inference_ms": {
+    "n": 50,
+    "median": 2001.498791500012,
+    "p95": 3133.1477475500606
+  },
+  "frame_age_ms": {
+    "n": 50,
+    "median": 2001.5023270000256,
+    "p95": 3133.150526149973
+  },
+  "queue_to_driver_start_ms": {
+    "n": 2,
+    "median": 0.3593745000216586,
+    "p95": 0.40618215002723446
+  },
+  "warning_count": 2,
+  "warnings_per_min": 1.4664787568285331,
+  "stale_frames": 27,
+  "note": "Driver start is not measured acoustic onset. Synthetic/silent runs do not measure model/audio quality."
+}

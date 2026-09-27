@@ -1,0 +1,2 @@
+=# Candidate compatibility ranges. Freeze your verified Windows environment after setup.
+-e .[vision,speech]

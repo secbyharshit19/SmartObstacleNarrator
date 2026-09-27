@@ -1,0 +1,13 @@
+{
+  "checkpoint_resume": "passed",
+  "release_export": "passed",
+  "purpose": "Synthetic execution test only; no custom obstacle accuracy claim",
+  "packages": {
+    "ultralytics": "8.4.158",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "numpy": "2.3.5",
+    "opencv-python": "4.11.0.86",
+    "PyYAML": "6.0.3"
+  }
+}

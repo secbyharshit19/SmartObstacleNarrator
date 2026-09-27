@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "system": "Linux",
+  "packages": {
+    "ultralytics": "8.4.158",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "opencv-python": "4.11.0.86",
+    "numpy": "2.3.5",
+    "PyYAML": "6.0.3",
+    "pyttsx3": "2.99",
+    "pytest": "9.1.1",
+    "nbformat": "5.11.1"
+  },
+  "target_windows_tested": false,
+  "gpu_tested": false
+}

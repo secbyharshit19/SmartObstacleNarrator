@@ -1,0 +1,13 @@
+# No real calibration has been performed. Distance stays unknown by default.
+enabled: false
+camera_id: "0"
+width: 640
+height: 480
+focal_y_px: null
+valid_min_m: 0.8
+valid_max_m: 4.0
+relative_uncertainty: 0.25
+# Only enable for a measured object in a controlled demonstration.
+# All objects of an enabled class must satisfy this physical-height assumption.
+object_heights_m: {}
+calibration_date: null

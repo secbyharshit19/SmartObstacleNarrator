@@ -1,0 +1,10 @@
+# Top-level versions exercised on Linux/Python 3.12; NOT a Windows or Colab lockfile.
+# Install after platform-appropriate torch/torchvision if reproducing this exact environment.
+ultralytics==8.4.158
+opencv-python==4.11.0.86
+numpy==2.3.5
+PyYAML==6.0.3
+pyttsx3==2.99
+pytest==9.1.1
+nbformat==5.11.1
+# Build verification used torch 2.14.0 / torchvision 0.29.0; choose compatible official wheels for your machine.

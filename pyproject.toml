@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-obstacle-narrator"
+version = "1.0.0"
+description = "Experimental webcam obstacle narrator with conditional distance and offline audio"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+vision = ["ultralytics>=8.3,<9", "opencv-python>=4.10,<5"]
+speech = ["pyttsx3>=2.98,<3"]
+dev = ["pytest>=8,<10", "nbformat>=5,<6"]
+
+[project.scripts]
+son = "smart_obstacle_narrator.app:main"
+son-data = "smart_obstacle_narrator.dataset:main"
+son-calibrate = "smart_obstacle_narrator.calibration:main"
+son-evaluate = "smart_obstacle_narrator.evaluation:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
